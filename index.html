@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Super Bikes</h1>
+    
+   <h1 class="top">Super Bikes</h1>
+   <nav>
+    <a id="sc_homepage" href="#sc">Super Cruisers</a> |
+    <a id="ss_homepage" href="#ss">Super Sports</a> |
+    <a id="sn_homepage" href="#sn">Super Naked</a> |
+    <a id="tou_homepage" href="#tou">Touring</a>
+</nav>
+
     <hr></hr>
     <p>There are so many super bikes in current market with different Body types like...</p>
     <ol>
@@ -15,16 +24,16 @@
         <li>Super Naked</li>
         <li> Touring </li>
     </ol>
-    <p>Lets dive deep into every Body type of evey Bike.</p>
+    <p id="deep"> Lets dive deep into every Body type of evey Bike.</p>
 
-    <h1>1. Super Crusiers</h1>
-    <p>These bikes are designed for riders who crave the relaxed riding posture of a traditional cruiser but also desire a powerful and capable machine.</p>
+    <h1 id="sc">1. Super Crusiers</h1>
+    <p id="about_bike">These bikes are designed for riders who crave the relaxed riding posture of a traditional cruiser but also desire a powerful and capable machine.</p>
     <h3>Key Characteristics</h3>
     <p><strong>Powerful Engines:</strong>
         
         Super cruisers typically boast larger displacement engines, providing ample torque for effortless cruising and strong acceleration.</p>
 <p><strong>Comfortable Riding Position:</strong>
-    They maintain the classic cruiser ergonomics, with a low seat, relaxed handlebars, and forward or mid-mounted foot controls.
+       They maintain the classic cruiser ergonomics, with a low seat, relaxed handlebars, and forward or mid-mounted foot controls.
     </p>
     <p><strong>Distinctive Styling:</strong>
         These bikes often feature bold and muscular designs, with attention to detail and premium finishes.</p>
@@ -34,21 +43,24 @@
             <li>Yamaha VMAX</li>
           <li> Kawasaki Vulcan S </li>
           <li>Harley Davidson Fat Bob 114</li>
-        </ol>
-        <img src="https://ridermagazine.com/wp-content/uploads/2008/10/2009-Star-Vmax-10.jpg" alt="YAMAHA VMAX">
-        <h3>Yamaha VMAX</h3>
-        <ul>
+         </ol>
+         <div class="VMAX">
+         <img src="https://ridermagazine.com/wp-content/uploads/2008/10/2009-Star-Vmax-10.jpg"  alt="YAMAHA VMAX">
+       
+         <h3 id="vmax">Yamaha VMAX</h3>
+         <ul>
             <li>Displacement 1679cc </li>
             <li>Max Power197.3 bhp @ 9000 rpm</li>
             <li>Max Torque166.8 Nm @ 6500 rpm</li>
             <li>No. of Cylinders 4</li>
             <li>Fuel Capacity15 Ltrs</li>
             <li>Mileage (ARAI)11 Kmpl</li>
-        </ul>
+         </ul>
+         </div>
         
-        <h1>2. Super Sports</h1>
-<p>Super sports bikes" represent the pinnacle of motorcycle engineering, designed for maximum performance on the track or the open road.
- These machines prioritize speed, agility, and cutting-edge technology.</p>
+        <h1 id="ss">2. Super Sports</h1>
+<p id="about_ssbike">Super sports bikes represent the pinnacle of motorcycle engineering, designed for maximum performance on the track or the open road.
+ </p>
  <h3>Key Characteristics</h3>
  <p><strong>High-Performance Engines:</strong>
     Super sports bikes are equipped with powerful, high-revving engines that deliver exceptional horsepower and torque.
@@ -66,8 +78,9 @@
     <li>Honda CBR1000RR-R Fireblade</li>
     <li>Kawasaki ZX10R</li>
 </ol>
+<div class="S1000RR">
 <img src="https://www.indiacarnews.com/wp-content/uploads/2021/04/BMW-M-1000-RR-Price-India-768x512.jpg" alt="BMW M1000RR">
-<h3> BMW S1000RR</h3>
+<h3 id="s1000rr"> BMW S1000RR</h3>
 <ul>
     <li>Displacement 999 cc</li>
     <li>Max Power206.66 PS @ 13750 rpm</li>
@@ -76,10 +89,11 @@
     <li>Fuel Capacity16.5 L</li>
     <li>Mileage (Overall)15.62 kmpl</li>
 </ul>
+</div>
 
-<h1>3. Super Naked </h1>
-<p>Super naked bikes" are essentially high-performance sportbikes stripped of their fairings, revealing their powerful engines and aggressive aesthetics.
-They blend the raw power of a super sports bike with a more upright, comfortable riding position, making them ideal for spirited street riding. </p>
+<h1 id="sn">3. Super Naked </h1>
+<p id="about_snbike">Super naked bikes are high-performance sportbikes with comfortable riding position and ideal for spirited street riding. </p>
+
 <h3>Key Characteristics</h3>
 <p><strong>Powerful Engines:</strong>
 These bikes inherit the high-performance engines from their super sports counterparts, delivering exhilarating acceleration and top speeds.</p>
@@ -94,8 +108,9 @@ Compared to super sports bikes, super nakeds offer a more relaxed riding positio
     <li>Triumph Speed Triple 1200</li>
     <li>KTM 1390 Super Duke R</li>
 </ol>
+<div class="RS1200">
 <img src="https://cdn.dealerspike.com/imglib/v1/800x600/imglib/Assets/Inventory/D4/ED/D4ED0B3E-F741-483E-9AC5-599E84EA8EFB.jpg" alt="Triumph Speed Triple 1200">
-<h3>Triumph Speed Triple 1200</h3>
+<h3 id="rs1200">Triumph Speed Triple 1200 RS</h3>
 <ul>
     <li>Displacement 1160 cc</li>
     <li>Max Power 180 PS @ 10750 rpm</li>
@@ -104,10 +119,9 @@ Compared to super sports bikes, super nakeds offer a more relaxed riding positio
     <li>Fuel Capacity 15.5 L</li>
     <li>Mileage (Overall)17.9 kmpl</li>
 </ul>
-
-<h1>4. Touring</h1>
-<p>"Super touring bikes" are designed for riders who demand the utmost comfort and capability for long-distance journeys.
-These motorcycles are engineered to handle extended highway miles with ease, offering a smooth ride, ample storage, and a wide range of features.</p>
+</div>
+<h1 id="tou">4. Touring</h1>
+<p id="about_toubike">Super touring bikes are designed for riders who demand the utmost comfort and capability for long-distance journeys.
 <h3>Key Characteristics</h3>
 <p><strong>Exceptional Comfort:</strong>
 These bikes prioritize rider and passenger comfort, with features like plush seating, adjustable windshields, and ergonomic riding positions.</p>
@@ -122,8 +136,9 @@ They feature large-displacement engines that provide smooth and effortless power
     <li>Indian Motorcycle Pursuit</li>
     <li>BMW R 1250 GS Adventure </li>
 </ol>
+<div class="Gold_Wing">
 <img src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/192119/honda-goldwing-right-front-three-quarter0.gif?isig=0" alt="Gold Wing">
-<h3>Honda Gold Wing</h3>
+<h3 id="goldwing">Honda Gold Wing</h3>
 <ul>
     <li>Displacement 1833 cc</li>
     <li>Max Power 126.4 PS @ 5500 rpm</li>
@@ -132,6 +147,7 @@ They feature large-displacement engines that provide smooth and effortless power
     <li>Fuel Capacity 21.1 L</li>
     <li>Mileage (Overall) 14 kmpl</li>
 </ul>
+</div>
 <hr>
 <footer>
     <p>Connect us via:</p>

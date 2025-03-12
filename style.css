@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+    line-height: 1.9;
+}
+h1, h3{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    /*text-align: center;*/
+}
+.top{
+    text-align: center;
+    /* top h1 tag - Super bikes*/
+}
+p{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ol, ul{
+color: aliceblue;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    height: auto;
+    width: 500px;
+    margin-left: 249px;
+    border-radius: 10px;
+}
+
+#deep{
+    text-align: center;
+}
+
+#sc{
+    text-align: center;
+}
+
+#about_bike{
+    text-align: center;
+}
+
+.VMAX  {
+    display: flex;
+    align-items: center;
+}
+.VMAX img{
+    margin-left: 1%;
+}
+
+#vmax{
+    margin-left: 80px;
+}
+#sc_homepage{
+    margin-left: 100px;
+}
+#ss_homepage{
+    margin-left: 150px;
+}
+#sn_homepage{
+    margin-left: 200px;
+}
+#tou_homepage{
+    margin-left: 285px;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+   /* border-top: 1px solid #eee;*/
+}
+#ss{
+    text-align: center;
+}
+#about_ssbike{
+    text-align: center;
+}
+.S1000RR{
+    display: flex;
+    align-items: center;
+}
+.S1000RR img{
+    margin-left: 10px;
+}
+#s1000rr{
+ margin-left: 80px;
+}
+
+#sn{
+    text-align: center;
+}
+#about_snbike{
+    text-align: center;
+}
+.RS1200{
+display: flex;
+align-items: center;
+}
+.RS1200 img{
+    margin-left: 10px;
+}
+#rs1200{
+    margin-left: 80px;
+}
+#tou{
+    text-align: center;
+}
+#about_toubike{
+    text-align: center;
+}
+.Gold_Wing{
+    display: flex;
+    align-items: center;
+}
+.Gold_Wing img{
+    margin-left: 10px;
+}
+#goldwing{
+margin-left: 80px;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+strong{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li img {
+    width: 50px; 
+    height: 50px; 
+}
