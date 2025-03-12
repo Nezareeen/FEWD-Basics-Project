@@ -11,14 +11,9 @@ body {
    align-items: center;
    height: 100vh;
    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
-
-
-
-
-
 }
 
-.login-container {
+.signup-box {
    background: white;
    padding: 40px;
    
@@ -29,7 +24,10 @@ body {
    position: relative;
 }
 
-/* Move Login text higher */
+.signup-box:hover {
+   transform: scale(1.02);
+}
+
 h2 {
    margin-top: -10px; /* Adjust this value if needed */
    margin-bottom: 20px;
@@ -38,19 +36,19 @@ h2 {
    font-weight: bold;
 }
 
-.input {
+.input-box {
    margin-bottom: 15px;
    text-align: left;
 }
 
-.input label {
+.input-box label {
    display: block;
    font-weight: 600;
    margin-bottom: 5px;
    color: #555;
 }
 
-.input input {
+.input-box input {
    width: 100%;
    padding: 10px;
    border: 1px solid #ccc;
@@ -58,87 +56,47 @@ h2 {
    outline: none;
    transition: 0.3s;
 }
-
-.input input:hover {
+.input-box input:hover {
    box-shadow: 0px 4px 10px rgba(6, 62, 245, 0.2);
 }
-.input input:focus {
+
+.input-box input:focus {
    border-color: #6e8efb;
    box-shadow: 0px 0px 6px rgba(110, 142, 251, 0.5);
 }
 
-.login-button {
+.btn-box {
    width: 100%;
-   padding: 10px;
+   padding: 12px;
    background: #6e8efb;
    color: white;
    border: none;
-   border-radius: 5px;
+   border-radius: 8px;
    font-size: 16px;
    cursor: pointer;
-   transition: 0.3s;
+   transition: 0.3s ease-in-out;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
    margin-top: 15px;
 }
 
-.login-button:hover {
-   background: #5a7dfb;
-   transform: scale(1.1);
+.btn-box:hover {
+   background: #546de5;
+   transform: translateY(-2px);
 }
 
-.forgot-btn {
+.login-page {
    margin-top: 15px;
    font-size: 14px;
 }
 
-.forgot-btn a {
-   color: blue;
+.login-page a {
+   color: #6e8efb;
+   font-weight: bold;
    text-decoration: none;
+   transition: 0.3s ease-in-out;
 }
 
-.forgot-btn a:hover {
+.login-page a:hover {
    text-decoration: underline;
-}
-
-.signup {
-   margin-top: 15px;
-   font-size: 14px;
-}
-
-.signup a {
-   color: blue;
-   text-decoration: none;
-}
-
-.signup a:hover {
-   text-decoration: underline;
-}
-
-/* Social media icons container */
-.social-login {
-   margin-top: 20px;
-}
-
-.social-login p {
-   font-size: 14px;
-   color: #555;
-   margin-bottom: 10px;
-}
-
-/* Center and space out icons */
-.img-box {
-   display: flex;
-   justify-content: center;
-   gap: 25px;
-   margin-top: 15px;
-}
-
-.img-box img {
-   width: 35px;
-   height: 35px;
-   cursor: pointer;
-   transition: 0.3s;
-}
-
-.img-box img:hover {
-   transform: scale(1.1);
+   color: #546de5;
 }
